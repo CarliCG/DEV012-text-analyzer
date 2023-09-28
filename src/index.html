@@ -8,6 +8,40 @@
 </head>
 
 <body>
+
+  <header>
+    <h1>  ANALIZADOR DE TEXTO </h1> 
+  </header>
+  <br>
+  <p>Ingrese el texto en el siguiente recuadro: </p>
+  <textarea name="user-input" ></textarea>
+  <p id="resultado"></p>
+
+  <ul>  <!-- Lista sin orden especifico -->
+    <li class="metric" data-testid="word-count" > Recuento de palabras </li>
+    <!-- data-testid identifica de manera única el elemento que deseas seleccionar y probar.-->
+   <!-- <li> se utiliza para crear un elemento de lista y se le asigna una clase "metric" y un atributo de datos personalizado "data-testid" con el valor-->
+    <li class="metric" data-testid= "character-count" > Recuento de caracteres </li>
+
+    <li class="metric" data-testid="character-no-spaces-count">Recuento de caracteres excluyendo espacios y signos de puntuación</li>
+
+    <li class="metric" data-testid="number-count">Recuento de números</li>
+
+    <li class="metric" data-testid="number-sum"> Suma total de números</li>
+
+    <li class="metric" data-testid="word-length-average">Longitud media de las palabras</li>
+
+
+  </ul>
+  <br>
+  <br>
+  <button id= "resetbutton"> Borrar Texto</button>
+  <br>
+  <br>
+  <footer>
+    <p>Desarrolladora: Carla Campaña</p>
+  </footer>
+
   <script src="index.js" type="module"></script>
 </body>
 </html>
