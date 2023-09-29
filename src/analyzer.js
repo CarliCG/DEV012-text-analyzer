@@ -84,8 +84,8 @@ const analyzer = {
     // Redondear la longitud media a dos decimales
     return parseFloat(averageLength.toFixed(2));
   },
-  
 
+  
 };
 
 export default analyzer;
