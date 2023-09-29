@@ -1,0 +1,60 @@
+
+header {
+  background-color: #b2c2b4; /* Cambia el color de fondo del encabezado */
+  padding: 1%; /* Agrega espacio interno alrededor del encabezado */
+}
+
+/* Estilo para el elemento <h1> dentro del <header> */
+header h1 {
+  color: #3b3b3d; /* Cambia el color del texto  */
+  font-size: 34px; /* Cambia el tamaño de la fuente */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: "Comic Sans MS", cursive;
+}
+body {
+  background-color: #d8f0f093; /* Cambia el color de fondo */
+}
+textarea[name="user-input"] {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 200px;
+  font-size: 20px;
+  background-color: rgb(217, 234, 240);
+}
+
+
+p {
+  font-size: 20px; /* Cambia el tamaño de fuente */
+  }
+
+.metric {
+  background-color: #b9dae4; /* Color de fondo */
+  border: 1px solid #000000; /* Borde de 1 píxel sólido negro */
+  margin: 30px auto; /* Márgenes verticales de 30px y márgenes horizontales automáticos */
+  border-radius: 5px; /* Añade esquinas redondeadas al botón */
+  padding: 5px; /* Relleno de 5 píxeles */
+  font-size: 20px;
+  width: 300px;
+  height: 50px;
+  text-align: center; /* Centra el texto horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  #resetbutton {
+  font-size: 20px;
+  background-color: #ee5757; /* Cambia el color de fondo a rojo */
+  color: #FFFFFF; /* Cambia el color del texto a blanco */
+  border-radius: 5px; /* Añade esquinas redondeadas al botón  */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón  */
+  width: 300px;
+  height: 50px;
+
+  }
+  
+  footer {
+    background-color: #9ab09e; /* Cambia el color de fondo del encabezado */
+    padding: 1%; /* Agrega espacio interno alrededor del encabezado */
+  }
